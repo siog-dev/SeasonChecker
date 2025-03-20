@@ -14,10 +14,10 @@ public class SeasonChecker {
 			case SEPTEMBER, OCTOBER 			-> "Autumn";
 			case NOVEMBER, DECEMBER, JANUARY 	-> "Winter";
 			default 							-> {
-				if (true) {
-					
+				if (month == Month.AUGUST && date.getDayOfMonth() < 20) {
+					yield "Holiday Season";
 				}else {
-					
+					yield "Autumn";
 				}
 			}
 		}; //; required after curly brackets that contain an expression
