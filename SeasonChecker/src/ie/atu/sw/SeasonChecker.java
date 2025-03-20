@@ -13,7 +13,13 @@ public class SeasonChecker {
 			case MAY, JUNE, JULY 				-> "Summer";
 			case SEPTEMBER, OCTOBER 			-> "Autumn";
 			case NOVEMBER, DECEMBER, JANUARY 	-> "Winter";
-			
+			default 							-> {
+				if (true) {
+					
+				}else {
+					
+				}
+			}
 		}; //; required after curly brackets that contain an expression
 	}
 	
